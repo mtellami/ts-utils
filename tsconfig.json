@@ -3,10 +3,13 @@
     "target": "ESNext",
     "module": "CommonJS",
     "moduleResolution": "node",
+    "baseUrl": "./",
     "outDir": "./dist",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true,
+    "declaration": true,
+    "declarationMap": true,
     "paths": {
       "@interfaces": ["src/interfaces"],
       "@functions": ["src/functions"]

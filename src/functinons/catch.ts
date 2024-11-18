@@ -1,4 +1,4 @@
-import { Result } from "../interfaces";
+import { Result } from "@interfaces";
 
 export function Catch<T = unknown>(
   fn: (...args: any[]) => T,

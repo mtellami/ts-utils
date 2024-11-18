@@ -1,4 +1,4 @@
-import { Result } from "../interfaces";
+import { Result } from "@interfaces";
 
 export async function asyncCatch<T = unknown>(
   fn: (...args: any[]) => Promise<T>,
