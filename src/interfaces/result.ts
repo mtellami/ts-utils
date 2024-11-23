@@ -1,1 +1,1 @@
-export type Result<T> = [T | undefined, Error | undefined];
+export type Result<T> = [T, undefined] | [undefined, Error];
